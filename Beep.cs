@@ -13,11 +13,11 @@ public class BeepDevice : Device
         switch (address)
         {
             case 0xF:
-                Console.Beep(2400, 1000)
+                Console.Beep(2400, 1000);
                 break;
         }
     }
 
     public override void shutdown() {}
-    public TerminalDevice() : base(0x5, "beep") { }
+    public BeepDevice() : base(0x5, "beep") { }
 }
