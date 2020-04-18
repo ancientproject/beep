@@ -1,0 +1,15 @@
+{
+    "id": "beep",
+    "version": "2.0.1",
+    "owner": "Yuuki Wesp",
+    "files":[
+        "#/Beep.cs"
+    ],
+    "license": "MIT",
+    "title": "Device for BEEP BEEP",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ancientproject/beep.git"
+    },
+    "type": "Source"
+  }
